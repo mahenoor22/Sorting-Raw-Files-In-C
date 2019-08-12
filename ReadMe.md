@@ -8,7 +8,7 @@ The most basic where there are 2 source files are used.
 
 We keep doing this until all the runs from both the files are merged and written on the third file. 
 
-## 2 Source 2 Destination (2S2D)
+## 2 Source - 2 Destination (2S2D)
 
 Here, we use two alternating destination files which makes the distribution of runs after every iteration redundant as we are distributing them to two different destination in the merging process itself. 
 
