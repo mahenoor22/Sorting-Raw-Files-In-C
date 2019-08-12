@@ -8,9 +8,16 @@ The most basic where there are 2 source files are used.
 
 We keep doing this until all the runs from both the files are merged and written on the third file. 
 
+![2S-1D](https://github.com/zaid-khan/Sorting-Raw-Files-In-C/blob/master/2S1D.png)
+
 ## 2 Source - 2 Destination (2S2D)
 
 Here, we use two alternating destination files which makes the distribution of runs after every iteration redundant as we are distributing them to two different destination in the merging process itself. 
 
+![2S-2D](https://github.com/zaid-khan/Sorting-Raw-Files-In-C/blob/master/2S2D.png)
+
+
 ## Polyphase Sort
 A polyphase merge sort is a variation that sorts a list using an initial uneven distribution of sub-lists (runs), primarily used for external sorting, and is more efficient than 2S-1D and 2S-2D. 
+
+![Polyphase](https://github.com/zaid-khan/Sorting-Raw-Files-In-C/blob/master/Polyphases.png)
